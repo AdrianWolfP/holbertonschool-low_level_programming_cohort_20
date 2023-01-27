@@ -17,7 +17,7 @@ srand(time(0));
 	if (lastdigit > 5)
 {
 	printf("Last digit of %d ", n);
-	printf("%d and is greater than 5\n", lastdigit);
+	printf("is %d and is greater than 5\n", lastdigit);
 }
 	else if (lastdigit == 0)
 {
