@@ -1,11 +1,17 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <time.h>
+/**
+ *
+ * main Entry point
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
 	int lastdigit;
-	stran(time(0));
+stran(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastdigit = n % 10;
 	if (lastdigit > 5)
