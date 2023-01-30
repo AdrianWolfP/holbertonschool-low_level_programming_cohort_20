@@ -1,22 +1,22 @@
 /**
-*main - Entry point
-*Return Always 0
+* main - Entry point
+* Return Always 0
 */
 
 #include <stdio.h>
 
 int main(void)
 {
-	int c;
+int c;
 for (c = 0; c <= 9; c++)
 {
-	putchar('0' + c);
+putchar('0' + c);
 if (c != 9)
 {
-	putchar(',');
-	putchar(' ');
+putchar(',');
+putchar(' ');
 }
 }
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }
