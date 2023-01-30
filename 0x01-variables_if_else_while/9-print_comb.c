@@ -1,5 +1,5 @@
 /**
-* main - Entry point
+* main - prints all possible combinations of single digit numbers
 * Return Always 0
 */
 
