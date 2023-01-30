@@ -3,7 +3,7 @@
 *Return Always 0
 */
 
-#include <std.io>
+#include <stdio.h>
 
 int main(void)
 {
