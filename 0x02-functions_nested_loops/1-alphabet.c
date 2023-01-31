@@ -1,5 +1,5 @@
 /**
-*main - Enrty point
+*print_alphabet - Enrty point
 *Return Always 0
 */
 #include "main.h"
