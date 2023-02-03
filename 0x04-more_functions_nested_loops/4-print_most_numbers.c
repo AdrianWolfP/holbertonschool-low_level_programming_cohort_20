@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-*main - prints out numbers 
+*main - prints out numbers
 *Return: Always 0
 */
 
