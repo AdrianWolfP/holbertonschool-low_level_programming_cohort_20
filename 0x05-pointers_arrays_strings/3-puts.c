@@ -3,6 +3,7 @@
 *@str: string
 *Return: Always 0
 */
+#include "main.h"
 
 void _puts(char *str)
 {
