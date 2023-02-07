@@ -4,11 +4,11 @@
 *Return: Always 0
 */
 #include "main.h"
-
+#include <stdio.h>
 void _puts(char *str)
 {
-	int i = 0;
+int i;
 for (i = 0; str[i]; i++)
-	_putchar(str[i]);
-	_putchar('\n');
+	putchar(str[i]);
+	putchar('\n');
 }
