@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 *leet - encodes string
-*str: the string being encoded
+*@str: the string being encoded
 *Return: a pointer to encoded string
 */
 
