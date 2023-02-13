@@ -1,4 +1,9 @@
 #include "holberton.h"
+/**
+*cap_string - capitalize all the words of the string
+*@str: the string changed
+*Return: a pointer to that string
+*/
 
 char *cap_string(char *str)
 {
