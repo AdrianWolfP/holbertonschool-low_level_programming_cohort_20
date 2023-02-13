@@ -4,7 +4,7 @@
 /**
 *_strcat - concatentes two strings
 *@dest: destination char
-*@src: source char 
+*@src: source char
 *Return: New char
 */
 
