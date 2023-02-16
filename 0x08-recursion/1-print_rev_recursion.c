@@ -1,11 +1,11 @@
 #include "main.h"
 /**
 *_print_rev_recursion - prints string out in reverse
-*@s: string
+*@s: pointer to string
 *Return: the string in reverse
 */
 
-void _print_rev_recursion(char *s)
+void _strlen_recursion(char *s)
 {
 
 	if (*s == '\0')
