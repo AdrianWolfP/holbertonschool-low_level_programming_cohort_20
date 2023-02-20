@@ -1,6 +1,6 @@
 /**
 *print_diagonal - draw a diagonal line
-*@n: an incrementor
+*@n: number of times
 *Return: Always 0
 */
 
