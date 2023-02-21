@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_number - runs square root recursion and returns the results
+ * _prime - runs square root recursion and returns the results
  * @n: number
  * @y: prime numbers
  * Return: Sqaure root but with prime numbers only
@@ -10,18 +10,22 @@
 int _prime(int n, int y);
 
 /**
- * _prime - checks if input is square root
+ * is_prime_number - runs
  * @n: number
- * @y: prime number
+ * Return: Always 0
 */
 
 int is_prime_number(int n)
 {
 	return (_prime(n, 1));
 }
-
 /**
- *
+ * _prime - run
+ * @n: run
+ * @y: run
+ * Return: Always 0
+ */
+
 int _prime(int n, int y)
 {
 	if (n <= 1)
