@@ -1,10 +1,9 @@
-#include "variadic_funtions.h"
+#include "variadic_functions.h"
 /**
  *print_numbers - prints numbers
- *@separator: string to print 
- *@n: numbers to print
+ *@separator: string
+ *@n:so many of numbers to printed
  */
-
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
