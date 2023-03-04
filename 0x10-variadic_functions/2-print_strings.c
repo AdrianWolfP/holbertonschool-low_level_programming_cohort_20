@@ -1,8 +1,8 @@
-#include "variadic_funtions.h"
+#include "variadic_functions.h"
 /**
  *print_strings - prints string
  *@separator: prints between strings
- *@n: number of strings after 
+ *@n: number of strings after
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
