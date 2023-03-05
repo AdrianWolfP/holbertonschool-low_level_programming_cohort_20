@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 {
 	int num1, num2;
 	char *operator;
-	int (8op)(int, int);
+	int (*op)(int, int);
 
 	if (argc != 4)
 	{
@@ -29,8 +29,12 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(99);
 	}
-	if ((strcmp(operator, "/") == 0 || (strcmp(operator, "%s")) == 0) && num2 == 0)
+	if ((strcmp(operator, "/") == 0 || (strcmp(operator, "%")) == 0) && num2 == 0)
 	{
+		printf("Error\n");
+		exit(100);
+	}
+
 		printf("%d\n", op(num1, num2));
 
 		return (0);

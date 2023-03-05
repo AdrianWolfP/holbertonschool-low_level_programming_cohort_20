@@ -35,7 +35,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - divide
+ * op_div - divides
  * @a: left
  * @b: right
  * @Return: Always 0
@@ -47,7 +47,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod
+ * op_mod - modulos
  * @a: left
  * @b: right
  * Return: Always 0
