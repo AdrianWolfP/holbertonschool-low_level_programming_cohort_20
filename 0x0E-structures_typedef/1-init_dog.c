@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stlib.h>
+#include <stdlib.h>
 /**
  * init_dog - variable of type
  * @d: pointer
