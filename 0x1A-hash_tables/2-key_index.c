@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- * key_index = function that gives index of a key
+ * key_index - function that gives index of a key
  * @key: key
  * @size: size of array
  * Return: index of key value pair
