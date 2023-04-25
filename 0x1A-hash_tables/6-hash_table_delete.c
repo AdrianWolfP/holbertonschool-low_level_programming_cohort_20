@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- * hash_table_delete(hash_table_t *ht)
+ * hash_table_delete- hash it out daddy
  * @ht: value
  * Return: void
  */
